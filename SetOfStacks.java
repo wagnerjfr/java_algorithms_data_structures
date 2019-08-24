@@ -9,14 +9,11 @@
 
 package main;
 
-import java.util.Iterator;
-import java.util.LinkedHashSet;
-import java.util.Set;
-import java.util.Stack;
+import java.util.*;
 
 public class SetOfStacks<E> {
 
-    private Set<Stack<E>> stackSet = new LinkedHashSet<>();
+    private List<Stack<E>> stackList = new ArrayList<>();
     private final int THRESHOLD = 3;
     private Stack<E> current;
 
@@ -61,9 +58,9 @@ public class SetOfStacks<E> {
     }
 
     public SetOfStacks push(E e) {
-        if (stackSet.isEmpty() || current.size() == THRESHOLD) {
+        if (stackList.isEmpty() || current.size() == THRESHOLD) {
             Stack<E> stack = new Stack<>();
-            stackSet.add(stack);
+            stackList.add(stack);
             current = stack;
         }
         current.push(e);
@@ -71,23 +68,12 @@ public class SetOfStacks<E> {
     }
 
     public E pop() {
-        if (stackSet.isEmpty()) {
+        if (stackList.isEmpty()) {
             return null;
         } else if (current.size() == 1) {
             E value = current.pop();
-
-            // find the next previous stack
-            Stack<E> previous = null;
-            Iterator<Stack<E>> it = stackSet.iterator();
-            while (it.hasNext()) {
-                Stack<E> aux = it.next();
-                if (aux.equals(current)) {
-                    stackSet.remove(current);
-                    break;
-                }
-                previous = aux;
-            }
-            current = previous;
+            stackList.remove(current);
+            current = stackList.get(stackList.size()-1);
             return value;
         } else {
             return current.pop();
@@ -96,11 +82,11 @@ public class SetOfStacks<E> {
 
     public E popAt(int index) {
         E value = null;
-        if (index > stackSet.size()-1) {
+        if (index > stackList.size()-1) {
             return value;
         }
         int count = 0;
-        Iterator<Stack<E>> it = stackSet.iterator();
+        Iterator<Stack<E>> it = stackList.iterator();
         while (it.hasNext()) {
             Stack<E> aux = it.next();
             if (count == index) {
@@ -113,6 +99,6 @@ public class SetOfStacks<E> {
     }
 
     public String toString() {
-        return stackSet.toString();
+        return stackList.toString();
     }
 }
