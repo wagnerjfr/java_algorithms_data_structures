@@ -81,21 +81,10 @@ public class SetOfStacks<E> {
     }
 
     public E popAt(int index) {
-        E value = null;
-        if (index > stackList.size()-1) {
-            return value;
+        if (index < 0 || index > stackList.size()-1) {
+            return null;
         }
-        int count = 0;
-        Iterator<Stack<E>> it = stackList.iterator();
-        while (it.hasNext()) {
-            Stack<E> aux = it.next();
-            if (count == index) {
-                value = aux.pop();
-                break;
-            }
-            count++;
-        }
-        return value;
+        return stackList.get(index).pop();
     }
 
     public String toString() {
