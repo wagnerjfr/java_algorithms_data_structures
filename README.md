@@ -30,3 +30,27 @@ null
 [[1, 2], [4, 5], [7]]
 [[1, 2], [4, 5], [7, 13]]
 ```
+### 2. Sum2LinkedListNumbers
+Description:
+```
+/**
+ * You have two numbers represented by a linked list, where each node contains a sin-
+ * gle digit. The digits are stored in reverse order, such that the 1’s digit is at the head of
+ * the list. Write a function that adds the two numbers and returns the sum as a linked
+ * list.
+ * EXAMPLE
+ * Input: (3 -> 1 -> 5) + (5 -> 9 -> 2)
+ * Output: 8 -> 0 -> 8
+ */
+```
+Sample output:
+```
+[5] + [5, 1]
+[0, 2]
+
+[3, 1, 5] + [5, 9, 2]
+[8, 0, 8]
+
+[9, 9, 9] + [9, 9, 9]
+[8, 9, 9, 1]
+```
