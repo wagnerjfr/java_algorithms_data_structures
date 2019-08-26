@@ -44,7 +44,7 @@ Description:
  */
 ```
 Sample output:
-```
+```console
 [5] + [5, 1]
 [0, 2]
 
@@ -53,4 +53,23 @@ Sample output:
 
 [9, 9, 9] + [9, 9, 9]
 [8, 9, 9, 1]
+```
+### 3. MyQueueWith2Statcks
+Description:
+```
+/**
+ * A MyQueue class which implements a queue using two stacks.
+ */
+```
+Sample output:
+```console
+Stack1: [1, 2, 3], Stack2: []
+Dequeue: 1
+Stack1: [], Stack2: [3, 2]
+Stack1: [4, 5, 6], Stack2: [3, 2]
+Dequeue: 2
+Dequeue: 3
+Stack1: [4, 5, 6], Stack2: []
+Dequeue: 4
+Stack1: [], Stack2: [6, 5]
 ```
