@@ -54,7 +54,7 @@ Sample output:
 [9, 9, 9] + [9, 9, 9]
 [8, 9, 9, 1]
 ```
-### 3. MyQueueWith2Statcks
+### 3. MyQueueWith2Stacks
 Description:
 ```
 /**
