@@ -73,3 +73,24 @@ Stack1: [4, 5, 6], Stack2: []
 Dequeue: 4
 Stack1: [], Stack2: [6, 5]
 ```
+### 4. BinaryTreeFromSortedArray
+Description:
+```
+/**
+ * Given a sorted (increasing order) array, write an algorithm to create a binary tree with
+ * minimal height.
+ *
+ * EXAMPLE:
+ * [1,2,3,4,5,6,7] -> {4,2,1,3,6,5,7}
+ *
+ *          4
+ *         / \
+ *       2    6
+ *      / \  / \
+ *     1  3 5   7
+ */
+```
+Sample output:
+```console
+4,2,1,3,6,5,7,
+```
