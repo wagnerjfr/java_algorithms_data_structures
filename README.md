@@ -85,12 +85,37 @@ Description:
  *
  *          4
  *         / \
- *       2    6
- *      / \  / \
- *     1  3 5   7
+ *       2     6
+ *      / \   / \
+ *     1  3  5   7
  */
 ```
 Sample output:
 ```console
 4,2,1,3,6,5,7,
+```
+### 5. LinkedListsOfBinaryTreeDepthPaths
+Description:
+```
+/**
+ * Given a binary search tree, design an algorithm which creates a linked list of all the
+ * nodes at each depth (i.e., if you have a tree with depth D, you’ll have D linked lists)
+ *
+ * EXAMPLE:
+ *          10
+ *         /  \
+ *        5    15
+ *      /  \     \
+ *     1    8     20
+ *           \
+ *            9
+ *
+ * LinkedList1: 10, 5, 1
+ * LinkedList2: 10, 5, 8, 9
+ * LinkedList3: 10, 15, 20
+ */
+```
+Sample output:
+```console
+[[10, 5, 1], [10, 5, 8, 9], [10, 15, 20]]
 ```
