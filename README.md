@@ -119,3 +119,19 @@ Sample output:
 ```console
 [[10, 5, 1], [10, 5, 8, 9], [10, 15, 20]]
 ```
+### 6. SortArraysIterators
+Description:
+```
+/**
+ * Sort 2 sorted arrays using Iterators
+ *
+ * EXAMPLE:
+ * a1: [3,5,6,9]
+ * a2: [1,7,8]
+ * result: [1,3,5,6,7,8,9]
+ */
+```
+Sample output:
+```console
+[1, 3, 5, 6, 7, 8, 9]
+```
