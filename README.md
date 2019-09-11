@@ -135,3 +135,24 @@ Sample output:
 ```console
 [1, 3, 5, 6, 7, 8, 9]
 ```
+### 7. Nth2LastElementLinkedList
+Description:
+```
+/**
+ * Given a singly Linked List, write a function to find the nth-to-last
+ * element of the list.
+ *
+ * EXAMPLE:
+ * list = 1 -> 2 -> 3 -> 4 -> 5 -> null
+ *
+ * n = 1; output = 4;
+ * n = 2; output = 3;
+ * n = 3; output = 2;
+ */
+```
+Sample output:
+```console
+4
+3
+2
+```
