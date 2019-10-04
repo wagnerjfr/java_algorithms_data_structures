@@ -13,6 +13,8 @@ Description:
  * Implement a function popAt(int index) which performs a pop operation on a specific sub-stack.
  */
 ```
+[Code link](https://github.com/wagnerjfr/java_algorithms_data_structures/blob/master/SetOfStacks.java)
+
 Sample output:
 ```console
 [[1, 2, 3], [4, 5, 6], [7, 8]]
