@@ -45,6 +45,8 @@ Description:
  * Output: 8 -> 0 -> 8
  */
 ```
+[Code link](https://github.com/wagnerjfr/java_algorithms_data_structures/blob/master/Sum2LinkedListNumbers.java)
+
 Sample output:
 ```console
 [5] + [5, 1]
