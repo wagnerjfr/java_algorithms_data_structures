@@ -65,6 +65,8 @@ Description:
  * A MyQueue class which implements a queue using two stacks.
  */
 ```
+[Code link](https://github.com/wagnerjfr/java_algorithms_data_structures/blob/master/MyQueueWith2Stacks.java)
+
 Sample output:
 ```console
 Stack1: [1, 2, 3], Stack2: []
