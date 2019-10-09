@@ -123,6 +123,8 @@ Description:
  * LinkedList3: 10, 15, 20
  */
 ```
+[Code link](https://github.com/wagnerjfr/java_algorithms_data_structures/blob/master/LinkedListsOfBinaryTreeDepthPaths.java)
+
 Sample output:
 ```console
 [[10, 5, 1], [10, 5, 8, 9], [10, 15, 20]]
