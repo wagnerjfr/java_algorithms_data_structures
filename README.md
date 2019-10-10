@@ -141,6 +141,8 @@ Description:
  * result: [1,3,5,6,7,8,9]
  */
 ```
+[Code link](https://github.com/wagnerjfr/java_algorithms_data_structures/blob/master/SortArraysIterators.java)
+
 Sample output:
 ```console
 [1, 3, 5, 6, 7, 8, 9]
