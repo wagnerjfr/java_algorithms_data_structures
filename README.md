@@ -162,6 +162,8 @@ Description:
  * n = 3; output = 2;
  */
 ```
+[Code link](https://github.com/wagnerjfr/java_algorithms_data_structures/blob/master/Nth2LastElementLinkedList.java)
+
 Sample output:
 ```console
 4
