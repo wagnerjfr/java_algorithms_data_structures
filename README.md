@@ -170,3 +170,21 @@ Sample output:
 3
 2
 ```
+### 8. GenericArrayListDuplicate
+Description:
+```
+/**
+ * A sample class of removing duplicated items from a using "generic" ArrayList
+ */
+```
+[Code link](https://github.com/wagnerjfr/java_algorithms_data_structures/blob/master/GenericArrayListDuplicate.java)
+
+Sample output:
+```console
+[apple, orange, apple, orange, lemon, banana]
+[apple, orange, lemon, banana]
+[apple, orange, lemon, banana]
+[10, 20, 30, 10, 30, 50, 50]
+[10, 20, 30, 50]
+[10, 20, 30, 50]
+```
