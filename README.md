@@ -188,3 +188,29 @@ Sample output:
 [10, 20, 30, 50]
 [10, 20, 30, 50]
 ```
+### 9. StackMaxFunction
+Description:
+```
+/**
+ * Design a stack with a push, pop and max function which returns the max value in the stack,
+ * all of which are run in O(1) time.
+ */
+```
+[Code link](https://github.com/wagnerjfr/java_algorithms_data_structures/blob/master/StackMaxFunction.java)
+
+Sample output:
+```console
+null -> 10 [10]
+null -> 10 [10] -> 30 [30]
+null -> 10 [10] -> 30 [30] -> 20 [30]
+print: max value: 30
+null -> 10 [10] -> 30 [30] -> 20 [30] -> 10 [30]
+print: max value: 30
+null -> 10 [10] -> 30 [30] -> 20 [30]
+print: pop: 10
+null -> 10 [10] -> 30 [30]
+print: pop: 20
+print: max value: 30
+null -> 10 [10] -> 30 [30] -> 40 [40]
+print: max value: 40
+```
